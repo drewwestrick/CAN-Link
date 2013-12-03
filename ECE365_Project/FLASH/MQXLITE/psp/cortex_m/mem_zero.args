@@ -1,0 +1,28 @@
+-mcpu=cortex-m4
+-mthumb
+-mfloat-abi=hard
+-mfpu=fpv4-sp-d16
+-g3
+-gdwarf-2
+-gstrict-dwarf
+-I"C:/Users/andre_000/workspace/ECE365_Project/Project_Headers"
+-I"C:/Users/andre_000/workspace/ECE365_Project/Project_Settings/Startup_Code"
+-I"C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/EWL_C/include"
+-I"C:/Freescale/CW MCU v10.5/MCU/ARM_GCC_Support/ewl/EWL_Runtime/include"
+-I"C:/Users/andre_000/workspace/ECE365_Project/Generated_Code"
+-I"C:/Users/andre_000/workspace/ECE365_Project/Sources"
+-I"C:/Users/andre_000/workspace/ECE365_Project/MQXLITE/include"
+-I"C:/Users/andre_000/workspace/ECE365_Project/MQXLITE/kernel"
+-I"C:/Users/andre_000/workspace/ECE365_Project/MQXLITE/psp/cortex_m"
+-I"C:/Users/andre_000/workspace/ECE365_Project/MQXLITE/psp/cortex_m/core/M4"
+-I"C:/Users/andre_000/workspace/ECE365_Project/MQXLITE/psp/cortex_m/compiler/cwgcc"
+-I"C:/Freescale/CW MCU v10.5/MCU/ProcessorExpert/lib/Kinetis/iofiles"
+-I"C:/Freescale/CW MCU v10.5/MCU/ProcessorExpert/lib/Kinetis/pdd/inc"
+-O0
+-ffunction-sections
+-fdata-sections
+-Wall
+-c
+-fmessage-length=0
+-D__VFPV4__
+-specs=ewl_c.specs
